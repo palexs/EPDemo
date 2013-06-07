@@ -17,12 +17,13 @@
 		7476B4C717627D05007C356F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7476B4C617627D05007C356F /* Default@2x.png */; };
 		7476B4C917627D05007C356F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7476B4C817627D05007C356F /* Default-568h@2x.png */; };
 		7476B4CC17627D05007C356F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7476B4CB17627D05007C356F /* ViewController.m */; };
-		7476B4CF17627D05007C356F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7476B4CD17627D05007C356F /* ViewController.xib */; };
 		7476B4D717627D05007C356F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7476B4D617627D05007C356F /* SenTestingKit.framework */; };
 		7476B4D817627D05007C356F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7476B4B217627D05007C356F /* UIKit.framework */; };
 		7476B4D917627D05007C356F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7476B4B417627D05007C356F /* Foundation.framework */; };
 		7476B4E117627D05007C356F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7476B4DF17627D05007C356F /* InfoPlist.strings */; };
-		7476B4E417627D05007C356F /* EPDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7476B4E317627D05007C356F /* EPDemoTests.m */; };
+		7476B4EE17627DF2007C356F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7476B4ED17627DF2007C356F /* ViewController.xib */; };
+		7476B4F117627E35007C356F /* FakeNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7476B4F017627E35007C356F /* FakeNotificationCenter.m */; };
+		7476B4F417627E9B007C356F /* ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7476B4F317627E9B007C356F /* ViewControllerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,13 +52,14 @@
 		7476B4C817627D05007C356F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7476B4CA17627D05007C356F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7476B4CB17627D05007C356F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7476B4CE17627D05007C356F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		7476B4D517627D05007C356F /* EPDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7476B4D617627D05007C356F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		7476B4DE17627D05007C356F /* EPDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EPDemoTests-Info.plist"; sourceTree = "<group>"; };
 		7476B4E017627D05007C356F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7476B4E217627D05007C356F /* EPDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPDemoTests.h; sourceTree = "<group>"; };
-		7476B4E317627D05007C356F /* EPDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPDemoTests.m; sourceTree = "<group>"; };
+		7476B4ED17627DF2007C356F /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		7476B4EF17627E35007C356F /* FakeNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeNotificationCenter.h; sourceTree = "<group>"; };
+		7476B4F017627E35007C356F /* FakeNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeNotificationCenter.m; sourceTree = "<group>"; };
+		7476B4F317627E9B007C356F /* ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +123,7 @@
 				7476B4C217627D05007C356F /* AppDelegate.m */,
 				7476B4CA17627D05007C356F /* ViewController.h */,
 				7476B4CB17627D05007C356F /* ViewController.m */,
-				7476B4CD17627D05007C356F /* ViewController.xib */,
+				7476B4ED17627DF2007C356F /* ViewController.xib */,
 				7476B4B917627D05007C356F /* Supporting Files */,
 			);
 			path = EPDemo;
@@ -144,8 +146,9 @@
 		7476B4DC17627D05007C356F /* EPDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				7476B4E217627D05007C356F /* EPDemoTests.h */,
-				7476B4E317627D05007C356F /* EPDemoTests.m */,
+				7476B4EF17627E35007C356F /* FakeNotificationCenter.h */,
+				7476B4F017627E35007C356F /* FakeNotificationCenter.m */,
+				7476B4F317627E9B007C356F /* ViewControllerTests.m */,
 				7476B4DD17627D05007C356F /* Supporting Files */,
 			);
 			path = EPDemoTests;
@@ -235,7 +238,7 @@
 				7476B4C517627D05007C356F /* Default.png in Resources */,
 				7476B4C717627D05007C356F /* Default@2x.png in Resources */,
 				7476B4C917627D05007C356F /* Default-568h@2x.png in Resources */,
-				7476B4CF17627D05007C356F /* ViewController.xib in Resources */,
+				7476B4EE17627DF2007C356F /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7476B4E417627D05007C356F /* EPDemoTests.m in Sources */,
+				7476B4F117627E35007C356F /* FakeNotificationCenter.m in Sources */,
+				7476B4F417627E9B007C356F /* ViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +305,6 @@
 				7476B4BC17627D05007C356F /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		7476B4CD17627D05007C356F /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7476B4CE17627D05007C356F /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 		7476B4DF17627D05007C356F /* InfoPlist.strings */ = {
