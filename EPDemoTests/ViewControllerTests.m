@@ -257,7 +257,7 @@
 {
     // ARRANGE
     id mockDefaults = [OCMockObject mockForClass:[NSUserDefaults class]];
-    [[[mockDefaults expect] andReturn:@8] objectForKey:@"countValue"];
+    [[[mockDefaults stub] andReturn:@8] objectForKey:@"countValue"];
     [sut setUserDefaults:mockDefaults];
     
     // ACT
@@ -270,7 +270,7 @@
 {
     // ARRANGE
     id mockDefaults = [OCMockObject mockForClass:[NSUserDefaults class]];
-    [[[mockDefaults expect] andReturn:nil] objectForKey:@"countValue"];
+    [[[mockDefaults stub] andReturn:nil] objectForKey:@"countValue"];
     [sut setUserDefaults:mockDefaults];
     
     // ACT
